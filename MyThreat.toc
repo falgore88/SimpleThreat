@@ -1,6 +1,0 @@
-## Interface: 11304
-## Title: SimpleThreat
-## Author: Evgeniy Titov
-## Version 1.0
-
-main.lua

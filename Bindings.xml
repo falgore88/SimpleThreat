@@ -1,5 +1,0 @@
-<Bindings>
-	<Binding name="CLICK MyHealButton:LeftButton" description="Select target heal" header="MyHeal">
-		--
-	</Binding>
-</Bindings>
