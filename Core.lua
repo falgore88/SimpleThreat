@@ -386,7 +386,7 @@ function SimpleThreat:update()
             self.db.profile.dangerThreatColor.b,
             self.db.profile.dangerThreatColor.a
         )
-	end
+    end
 end
 
 function SimpleThreat:createFrame()
@@ -408,7 +408,6 @@ function SimpleThreat:createFrame()
             local _, _, _, xOfs, yOfs = self.frame:GetPoint()
             self.db.profile.pos.x = xOfs;
             self.db.profile.pos.y = yOfs;
-            self:updatePosition(self.db.profile.pos.x, self.db.profile.pos.y)
         end
     end)
     
