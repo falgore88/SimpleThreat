@@ -16,7 +16,7 @@ local defaults = {
         isLock = false,
         isShowOnNotBattle = true,
         dangerThreat = 3000,
-        sageThreat = 6000,
+        safeThreat = 6000,
         dangerThreatColor = {
             r = 1,
             g = 0.1,
@@ -362,8 +362,6 @@ function SimpleThreat:update()
 	else
 		self.frame.texture.text:SetText(tostring(compare) .. " (0%)")
 	end
-
-	
 
 	if compare >= self.db.profile.safeThreat then 
 		self.frame.texture:SetColorTexture(
